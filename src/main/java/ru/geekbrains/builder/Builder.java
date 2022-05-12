@@ -1,4 +1,6 @@
-package ru.geekbrains;
+package ru.geekbrains.builder;
+
+import ru.geekbrains.model.TextContent;
 
 public interface Builder {
     Builder body(String body);
