@@ -7,12 +7,12 @@ public class Main {
                 .theme("My first text")
                 .build();
 
-        User user = User.builder()
-                .id(1L)
-                .userName("Bob")
-                .phoneNumber("89099990099")
-                .email("bob@gmail.com")
-                .build();
+//        User user = User.builder()
+//                .id(1L)
+//                .userName("Bob")
+//                .phoneNumber("89099990099")
+//                .email("bob@gmail.com")
+//                .build();
 
         System.out.println(content.toString());
     }
