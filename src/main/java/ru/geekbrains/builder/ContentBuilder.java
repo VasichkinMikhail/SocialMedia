@@ -1,6 +1,8 @@
-package ru.geekbrains;
+package ru.geekbrains.builder;
 
-public class ContentBuilder implements Builder{
+import ru.geekbrains.model.TextContent;
+
+public class ContentBuilder implements Builder {
 
     private String body;
     private String theme;

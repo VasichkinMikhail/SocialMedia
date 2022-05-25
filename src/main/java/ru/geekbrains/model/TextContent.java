@@ -1,4 +1,6 @@
-package ru.geekbrains;
+package ru.geekbrains.model;
+
+import ru.geekbrains.builder.UserContent;
 
 public class TextContent implements UserContent {
 

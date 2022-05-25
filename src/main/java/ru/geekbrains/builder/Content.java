@@ -1,6 +1,6 @@
-package ru.geekbrains;
+package ru.geekbrains.builder;
 
-public class Content implements UserContent{
+public class Content implements UserContent {
 
     private String body;
     private String theme;
