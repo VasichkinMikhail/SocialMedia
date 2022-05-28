@@ -2,26 +2,17 @@ package ru.geekbrains.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.EqualsAndHashCode;
+import lombok.Getter;
 
 
 @AllArgsConstructor
-@Builder(toBuilder = true)
-@EqualsAndHashCode
+@Getter
+@Builder
 public class User {
 
-    private Long id;
-    private String userName;
-    private String phoneNumber;
-    private String email;
+    private final Long id;
+    private final String name;
+    private final String password;
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", userName='" + userName + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", email='" + email + '\'' +
-                '}';
-    }
+
 }
