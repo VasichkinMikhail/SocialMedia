@@ -1,5 +1,6 @@
-package ru.geekbrains.observe;
+package ru.geekbrains.patterns.observer;
 
 public interface Observable {
+
     void subscribe(Subscriber subscriber);
 }
